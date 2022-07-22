@@ -1,0 +1,35 @@
+* {
+    transition: all 0.3s;
+  }  
+body{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+}
+#img{
+    border-radius: 20px;
+    width: 250px;
+}
+h2{
+    color: #fff;
+}
+#btn{
+    color: white;
+    text-decoration: none;
+}
+#divBtn{
+    position: relative;
+    top: 10px;
+    background-color: rgb(26, 122, 0);
+    width: 80px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#divBtn:hover{
+    transform: scale(1.2);
+}
