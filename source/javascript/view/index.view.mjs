@@ -32,7 +32,7 @@ export class IndexView {
       btn.href = `details.html?id=${element.id}`
 
       divBtn.append(btn)
-      div.append(h1,img,divBtn)
+      div.append(img,divBtn)
       this.#privateBody.append(div);
     });
   }
